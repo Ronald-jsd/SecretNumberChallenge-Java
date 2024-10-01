@@ -2,7 +2,7 @@
 
 ## Descripción
 
-El juego "Número Secreto" es una sencilla aplicación en Java donde el jugador intenta adivinar un número secreto generado aleatoriamente de 0 a 100.
+El juego "Número Secreto" es una aplicación en Java donde el jugador intenta adivinar un número secreto generado aleatoriamente de 0 a 100.
 El jugador tiene tendra 5 intentos para adivinar el número, y el juego proporciona pistas para ayudarlo a acercarse a la respuesta correcta.
 
 ## Cómo Jugar
