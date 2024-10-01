@@ -22,7 +22,7 @@ Utiliza la instrucción ‘break;’ para salir del bucle.*/
 import java.util.Random;
 import java.util.Scanner;
 
-public class ChallengeSecret {
+public class SecretNumber {
     static Scanner sc = new Scanner(System.in);
     static int numeroAleatorio = new Random().nextInt(101);
     static int nIntentos = 1;
