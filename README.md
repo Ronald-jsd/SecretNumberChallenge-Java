@@ -13,8 +13,8 @@ El jugador tiene tendra 5 intentos para adivinar el número, y el juego proporci
 4. **Intentos**: Tienes un máximo de 5 intentos para adivinar el número correcto.
 5. **Fin del Juego**: Si adivinas el número, ¡felicitaciones! Si no, el juego te dirá que has perdido.
 6. Si perdiste, el juego te brindara 2 opciones,  "Si" y "No".
-   a. Si escoges "Si" el juego se iniciara de nuevo.
-   b. Si escoges "No" el juego terminara con un mensaje
+  - a. Si escoges "Si" el juego se iniciara de nuevo.
+  - b. Si escoges "No" el juego terminara con un mensaje.
    
 ## Manejo de Errores 🛠️
 
