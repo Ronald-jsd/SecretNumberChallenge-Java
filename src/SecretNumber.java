@@ -39,7 +39,7 @@ public class SecretNumber {
 
     public static void evaluarNumeroSecreto() {
         imprimir("(Nro. Oportunidades: " + nIntentosMax + ")\n" +
-                "|===> Escriba el número: "
+                "|===> Escriba un número de 0 al 100: "
         );
 
         while (true) {
@@ -68,7 +68,7 @@ public class SecretNumber {
                 evaluarSiDeseaJugar(respuesta);
                 break;
             }   catch (Exception e) {
-                imprimir("Ingrese un valor valido");
+                imprimir("Escriba un valor numérico por favor: ");
                 sc.next();
             }
         }
@@ -100,12 +100,12 @@ public class SecretNumber {
             respuesta = sc.next();
         }
         if (respuesta.equalsIgnoreCase("si")) {
-            nIntentos = 0;
+            nIntentos = 1;
             numeroAleatorio = new Random().nextInt(101);
             imprimir("--**Nuevo Juego**--");
             evaluarNumeroSecreto();
         } else {
-            imprimir("¡Gracias por jugar! Bonito dia. :) ");
+            imprimir("¡Gracias por jugar! Bonito día. :) ");
         }
     }
 }
