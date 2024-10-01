@@ -1,11 +1,11 @@
 # Secret Number Game  🎮👨‍💻
 
-## Descripción
+## Descripción 📝
 
 El juego "Número Secreto" es una aplicación en Java donde el jugador intenta adivinar un número secreto generado aleatoriamente de 0 a 100.
 El jugador tiene tendra 5 intentos para adivinar el número, y el juego proporciona pistas para ayudarlo a acercarse a la respuesta correcta.
 
-## Cómo Jugar
+## Cómo Jugar 🎮
 
 1. **Iniciar el Juego**: Ejecute la clase `SecretNumber`.
 2. **Adivina el Número**: Se le pedirá que ingrese un número entre 0 y 100.
@@ -16,7 +16,7 @@ El jugador tiene tendra 5 intentos para adivinar el número, y el juego proporci
    a. Si escoges "Si" el juego se iniciara de nuevo.
    b. Si escoges "No" el juego terminara con un mensaje
    
-## Manejo de Errores
+## Manejo de Errores 🛠️
 
 - Si el jugador ingresa un valor que no es un número (como letras o símbolos), el programa mostrará un mensaje de error y le pedirá que intente nuevamente.
 - Además, el juego gestiona la entrada de respuestas sí/no(en minusculas o mayusculas) de forma que si el jugador escribe algo diferente, también se le solicitará que vuelva a escribir.
@@ -24,7 +24,7 @@ El jugador tiene tendra 5 intentos para adivinar el número, y el juego proporci
 ![image](https://github.com/user-attachments/assets/62844ba8-e33f-4317-a4bb-28c37af06a39)
 
    
-## Requisitos
+## Requisitos 📋
 
 - Java JDK 8 o superior.
 - Un entorno de desarrollo integrado (IDE) como IntelliJ IDEA, Eclipse o cualquier editor de texto que soporte Java.
